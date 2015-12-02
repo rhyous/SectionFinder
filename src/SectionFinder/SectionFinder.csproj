@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D382DAB-1BCB-46C1-BA60-EEB042D33153}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SectionFinder</RootNamespace>
+    <AssemblyName>SectionFinder</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\Args.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\Args.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsHandlerCollection.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsHandlerCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsManager.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsManager.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsReader.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgsReader.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgumentMessageBuilder.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\ArgumentMessageBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Business\CommonAllowedValues.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Business\CommonAllowedValues.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Extensions\ArgumentExtensions.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Extensions\ArgumentExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Extensions\StringExtensions.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IArgumentMessageBuilder.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IArgumentMessageBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IArgumentsHandler.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IArgumentsHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IReadArgs.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Interfaces\IReadArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Model\Argument.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Model\Argument.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentAddedEventArgs.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentAddedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentDictionary.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentList.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentList.cs</Link>
+    </Compile>
+    <Compile Include="..\packages\SimpleArgs.Sources.1.0.9.1\content\App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentsHandlerBase.cs">
+      <Link>App_Packages\SimpleArgs.Sources.1.0.9\Model\ArgumentsHandlerBase.cs</Link>
+    </Compile>
+    <Compile Include="Arguments\ArgsHandler.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionFinder.cs" />
+    <Compile Include="StringExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
