@@ -1,33 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineFinder", "LineFinder\LineFinder.csproj", "{1F5D3846-93CC-4821-B62F-299A3296C0A1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionFinder", "SectionFinder\SectionFinder.csproj", "{9D382DAB-1BCB-46C1-BA60-EEB042D33153}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{9B670D24-AA60-49DE-88BD-CA0594459989}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionFinder.Tests", "Unit Tests\SectionFinder.Tests\SectionFinder.Tests.csproj", "{76F66FAF-B176-4ABB-AA66-246A7E9D73C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionFinder", "SectionFinder\SectionFinder.csproj", "{9D382DAB-1BCB-46C1-BA60-EEB042D33153}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://slc-tfs2.ld.landesk.com:8080/tfs/bait
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = LineFinder\\LineFinder.csproj
-		SccProjectName1 = LineFinder
-		SccLocalPath1 = LineFinder
-		SccProjectUniqueName2 = SectionFinder\\SectionFinder.csproj
-		SccProjectName2 = SectionFinder
-		SccLocalPath2 = SectionFinder
-		SccProjectUniqueName3 = Unit\u0020Tests\\SectionFinder.Tests\\SectionFinder.Tests.csproj
-		SccProjectTopLevelParentUniqueName3 = LineFinder.sln
-		SccProjectName3 = Unit\u0020Tests/SectionFinder.Tests
-		SccLocalPath3 = Unit\u0020Tests\\SectionFinder.Tests
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -37,14 +21,14 @@ Global
 		{1F5D3846-93CC-4821-B62F-299A3296C0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5D3846-93CC-4821-B62F-299A3296C0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5D3846-93CC-4821-B62F-299A3296C0A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76F66FAF-B176-4ABB-AA66-246A7E9D73C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76F66FAF-B176-4ABB-AA66-246A7E9D73C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F66FAF-B176-4ABB-AA66-246A7E9D73C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F66FAF-B176-4ABB-AA66-246A7E9D73C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D382DAB-1BCB-46C1-BA60-EEB042D33153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
