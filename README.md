@@ -18,7 +18,7 @@ Arguments:
 ```
 
 # LineFinder
-This project includes a LineFinder as well, that just finds a line.
+This project includes a LineFinder as well, that just finds a line in text file.
 ```
 Usage:
   LineFinder.exe searchfile.txt findme [outputfile.txt] [/mc]
