@@ -1,5 +1,7 @@
 # SectionFinder
-A C# app to find sections of a file that contain a search string.
+A C# app to find sections of a file that contain a search string. 
+
+This tool was written to allow searching large text files. It can search files of any size, even files to big for common editors such as Notepad++.
 
 # SectionFinder Usage
 ```
