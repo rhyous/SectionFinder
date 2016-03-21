@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using Rhyous.LineFinder.Arguments;
-using SimpleArgs;
+using Rhyous.SimpleArgs;
 
 namespace Rhyous.LineFinder
 {

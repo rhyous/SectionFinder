@@ -1,6 +1,6 @@
 ﻿using System;
 using Rhyous.SectionFinder.Arguments;
-using SimpleArgs;
+using Rhyous.SimpleArgs;
 
 namespace Rhyous.SectionFinder
 {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
-using SimpleArgs;
+using Rhyous.SimpleArgs;
 
 namespace Rhyous.SectionFinder.Arguments
 {
