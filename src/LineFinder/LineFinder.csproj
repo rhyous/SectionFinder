@@ -7,7 +7,7 @@
     <ProjectGuid>{1F5D3846-93CC-4821-B62F-299A3296C0A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LineFinder</RootNamespace>
+    <RootNamespace>Rhyous.LineFinder</RootNamespace>
     <AssemblyName>LineFinder</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

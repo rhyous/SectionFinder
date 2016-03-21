@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using SimpleArgs;
 
-namespace SectionFinder.Arguments
+namespace Rhyous.SectionFinder.Arguments
 {
     // Add this line of code to Main() in Program.cs
     //

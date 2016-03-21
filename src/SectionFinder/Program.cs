@@ -1,8 +1,8 @@
 ﻿using System;
-using SectionFinder.Arguments;
+using Rhyous.SectionFinder.Arguments;
 using SimpleArgs;
 
-namespace SectionFinder
+namespace Rhyous.SectionFinder
 {
     class Program
     {

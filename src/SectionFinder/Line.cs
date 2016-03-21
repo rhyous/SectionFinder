@@ -1,4 +1,4 @@
-﻿namespace SectionFinder
+﻿namespace Rhyous.SectionFinder
 {
     public class Line
     {

@@ -1,8 +1,8 @@
-using SimpleArgs;
 using System.Collections.Generic;
 using System.IO;
+using SimpleArgs;
 
-namespace LineFinder.Arguments
+namespace Rhyous.LineFinder.Arguments
 {
     // Add this line of code to Main() in Program.cs
     //

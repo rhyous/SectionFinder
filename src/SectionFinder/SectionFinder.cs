@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace SectionFinder
+namespace Rhyous.SectionFinder
 {
     public class SectionFinder : IDisposable
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using LineFinder.Arguments;
+using Rhyous.LineFinder.Arguments;
 using SimpleArgs;
 
-namespace LineFinder
+namespace Rhyous.LineFinder
 {
     class Program
     {

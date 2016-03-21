@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LineFinder
+namespace Rhyous.LineFinder
 {
     public static class StringExtensions
     {

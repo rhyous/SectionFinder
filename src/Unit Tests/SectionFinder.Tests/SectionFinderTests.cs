@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SectionFinder.Tests
+namespace Rhyous.SectionFinder.Tests
 {
     [TestClass]
     public class SectionFinderTests

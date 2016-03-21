@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SectionFinder
+namespace Rhyous.SectionFinder
 {
     public static class StringExtensions
     {

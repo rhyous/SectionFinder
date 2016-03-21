@@ -7,7 +7,7 @@
     <ProjectGuid>{9D382DAB-1BCB-46C1-BA60-EEB042D33153}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SectionFinder</RootNamespace>
+    <RootNamespace>Rhyous.SectionFinder</RootNamespace>
     <AssemblyName>SectionFinder</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
