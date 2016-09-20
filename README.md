@@ -6,7 +6,7 @@ This tool was written to allow searching large text files. It can search files o
 # SectionFinder Usage
 ```
 Usage:
-  SectionFinder.exe searchfile.txt findme outputfile.txt [outputfile.txt] [outputfile.txt] [true] [true] [/mc]
+  SectionFinder.exe searchfile.txt findme outputfile.txt [begin] [end] [true] [true] [/mc]
 
 Arguments:
   SourceFile            (Required) The file to search in. If called without the SourceFile= or f=, it must be first.
